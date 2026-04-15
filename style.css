@@ -379,7 +379,7 @@ section h2 {
     line-height: 1.7;
 }
 
-.card-body strong {
+.card-body h3 {
     font-size: 24px;
 }
 
@@ -439,7 +439,7 @@ section h2 {
     line-height: 1.7;
 }
 
-.product-info strong {
+.product-info h3 {
     font-size: 22px;
 }
 
@@ -472,7 +472,7 @@ section h2 {
     padding: 28px;
 }
 
-.review-card strong {
+.review-card h3 {
     display: block;
     margin-bottom: 16px;
     font-size: 18px;
