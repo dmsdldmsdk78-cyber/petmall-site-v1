@@ -341,13 +341,14 @@ section h2 {
 }
 
 .slider-btn {
-    width: 46px;
-    height: 46px;
-    border-radius: 50%;
-    background: white;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
-    font-size: 20px;
-    font-weight: 700;
+    background: transparent;
+    place-items: center;
+    cursor: pointer;
+}
+
+.slider-btn img {
+    width: 25px;
+    height: 25px;
 }
 
 .product-card,
@@ -388,7 +389,7 @@ section h2 {
     margin: 0;
     font-size: 24px;
     font-weight: 700;
-    margin-left: 240px;
+    text-align: right;
 }
 
 .filter-tabs {
@@ -439,7 +440,7 @@ section h2 {
     margin: 0;
     font-size: 24px;
     font-weight: 700;
-    margin-left: 240px;
+    text-align: right;
 }
 
 .promo-inner {
