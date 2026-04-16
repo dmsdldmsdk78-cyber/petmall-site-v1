@@ -306,7 +306,7 @@ section h2 {
 /* 슬라이드 */
 .best-slider-wrap {
     overflow: hidden;
-    padding-bottom: 16px; 
+    padding-bottom: 16px;
 }
 
 .best-slider {
@@ -325,7 +325,7 @@ section h2 {
 
 /* 좌상단 : 우상단 = 둥글게, 우하단 : 좌하단 = 0 */
 .best-card img {
-  border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+    border-radius: var(--radius-lg) var(--radius-lg) 0 0;
 }
 
 .best-card .card-body {
@@ -376,11 +376,19 @@ section h2 {
 .card-body p {
     margin: 0 0 16px;
     color: var(--muted);
-    line-height: 1.7;
+    /* line-height: 1.7; */
+    min-height: 56px;
 }
 
 .card-body h3 {
     font-size: 24px;
+}
+
+.card-body .price {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 240px;
 }
 
 .filter-tabs {
@@ -427,20 +435,11 @@ section h2 {
     font-weight: 700;
 }
 
-.product-info h3 {
-    margin: 0 0 10px;
+.product-info .price {
+    margin: 0;
     font-size: 24px;
-    letter-spacing: -0.03em;
-}
-
-.product-info p {
-    margin: 0 0 14px;
-    color: var(--muted);
-    line-height: 1.7;
-}
-
-.product-info h3 {
-    font-size: 22px;
+    font-weight: 700;
+    margin-left: 240px;
 }
 
 .promo-inner {
@@ -493,7 +492,7 @@ section h2 {
 }
 
 .about-section {
-    background:  #eee4ee;
+    background: #eee4ee;
     text-align: center;
 }
 
@@ -531,10 +530,11 @@ section h2 {
 }
 
 .quick-menu a {
-    width: 64px;
-    height: 64px;
-    border-radius: 50%;
-    background: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 30%;
+    color: #ffffff;
+    background: rgb(214, 119, 119);
     display: grid;
     place-items: center;
     box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
